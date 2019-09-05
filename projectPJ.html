@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>projectPJ</title>
+		<link href="css/jquery-ui.css" rel="stylesheet">
+		<link href="css/projectPJcss.css" rel="stylesheet">
+		<script  type="text/javascript" src="scripts/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="scripts/jquery-ui.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div id="logo">projectPJ</div>
+			<div id="tabscontainer">
+				<div class="button active" id="html">HTML</div>
+				<div class="button" id="css">CSS</div>
+				<div class="button" id="javascript">JavaScript</div>
+				<div class="button active" id="output">Output</div>
+			</div>
+		</div>
+		<div id="bodycontainer">
+			<textarea id="htmlpanel" class="panel"><p id="para">Hello there</p></textarea>
+			<textarea id="csspanel" class="panel hidden">p{color:red;}</textarea>
+			<textarea id="javascriptpanel" class="panel hidden">document.getElementById("para").innerHTML="Hello";</textarea>
+			<iframe id="outputpanel" class="panel"></iframe>
+
+
+
+		</div>
+
+		<script  type="text/javascript" src="scripts/projectPJscript.js"></script>
+		
+	</body>
+
+
+
+</html>
